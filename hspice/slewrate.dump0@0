@@ -1,0 +1,26 @@
+* "simulator" "HSPICERF"
+* "version" "A-2008.03"
+* "format" "HSP"
+* "rundate" "23:27:13  12/24/2019"
+* "netlist" "c:\users\zeynep\desktop\hspice\slewrate.sp"
+* "runtitle" "SAMPLE CİRCUİT*"
+* time = 0
+* temperature = 25
+* alter = 0
+*** BEGIN: Saved Operating Point ***
+.nodeset
++ 0 = 0
++ 1 = 1.2
++ 2 = 0.5039
++ 3 = -0.446685
++ 4 = -1.2
++ 6 = -0.714017
++ 7 = -0.729306
++ 8 = 0.0512116
++ 10 = -1.2
++ 12 = -0.961092
++ 13 = 1.18969
++ 14 = 1.18969
++ 15 = -1.15518
++ 16 = -1.15518
+*** END: Saved Operating Point ***

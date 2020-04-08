@@ -1,0 +1,27 @@
+* "simulator" "HSPICERF"
+* "version" "A-2008.03"
+* "format" "HSP"
+* "rundate" "23:26:57  12/24/2019"
+* "netlist" "c:\users\zeynep\desktop\hspice\inputoffset.sp"
+* "runtitle" "SAMPLE CİRCUİT*"
+* time = 0
+* temperature = 25
+* alter = 0
+*** BEGIN: Saved Operating Point ***
+.nodeset
++ 0 = 0
++ 1 = 1.2
++ 2 = 0.5039
++ 3 = 0.69369
++ 4 = 0
++ 5 = -1.31808e-005
++ 6 = -0.723405
++ 7 = -0.723398
++ 8 = -0.728943
++ 10 = -1.2
++ 12 = -0.728165
++ 13 = -0.109289
++ 14 = -0.109289
++ 15 = -1.31808e-005
++ 16 = -1.31808e-005
+*** END: Saved Operating Point ***

@@ -1,0 +1,27 @@
+* "simulator" "HSPICERF"
+* "version" "A-2008.03"
+* "format" "HSP"
+* "rundate" "23:18:26  12/24/2019"
+* "netlist" "c:\users\zeynep\desktop\hspice\try.sp"
+* "runtitle" "SAMPLE CİRCUİT*"
+* time = 0
+* temperature = 25
+*** BEGIN: Saved Operating Point ***
+.option
++ gmindc= 1e-012
+.nodeset
++ 1 = 1.2000000000
++ 2 = 503.9000000000m
++ 3 = 693.6964711531m
++ 4 = 0.0000000000
++ 5 = 0.0000000000
++ 6 = -723.4015157902m
++ 7 = -723.4015157902m
++ 8 = -728.5509288045m
++ 10 = -1.2000000000
++ 12 = -728.5509288045m
++ 13 = -55.1679381854m
++ 14 = -55.1679381854m
++ 15 = -55.1679381857m
++ 16 = -55.1679381857m
+*** END: Saved Operating Point ***

@@ -1,0 +1,73 @@
+pf:read PF:1 v(13)
+# WF:1:1
+Graph addsignal {WF:1:1 WF:1:1} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+GrMeas:VerticalMarker Graph0 {Signal1 Signal0} 25658.0
+# M:0
+Graph:DSel
+GrMeas:Select Graph0 M:0 2
+GrMeas:MoveXLevel Graph0 M:0 2 14.610169320597
+# M:0
+Mdi:ArrangeIcons
+GrXY:NewGraph
+# Graph1
+Mdi:Move 442 1
+Mdi:Move 530 9
+Mdi:Move 523 2
+Graph:DSel
+pf:read PF:1 v(15)
+# WF:1:2
+Graph addsignal {WF:1:2 WF:1:2} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+wm geometry .sigmgr._PF:1 200x331+775+437
+wm geometry .sigmgr._PF:1 200x331+781+443
+wm geometry .sigmgr._PF:1 200x331+789+450
+wm geometry .sigmgr._PF:1 200x331+796+456
+wm geometry .sigmgr._PF:1 200x331+805+463
+wm geometry .sigmgr._PF:1 200x331+814+469
+wm geometry .sigmgr._PF:1 200x331+824+476
+wm geometry .sigmgr._PF:1 200x331+834+484
+wm geometry .sigmgr._PF:1 200x331+842+490
+wm geometry .sigmgr._PF:1 200x331+851+499
+wm geometry .sigmgr._PF:1 200x331+860+508
+wm geometry .sigmgr._PF:1 200x331+869+514
+wm geometry .sigmgr._PF:1 200x331+877+523
+wm geometry .sigmgr._PF:1 200x331+886+530
+wm geometry .sigmgr._PF:1 200x331+894+536
+wm geometry .sigmgr._PF:1 200x331+901+542
+wm geometry .sigmgr._PF:1 200x331+908+549
+wm geometry .sigmgr._PF:1 200x331+915+555
+wm geometry .sigmgr._PF:1 200x331+922+561
+wm geometry .sigmgr._PF:1 200x331+929+566
+wm geometry .sigmgr._PF:1 200x331+936+572
+wm geometry .sigmgr._PF:1 200x331+942+576
+wm geometry .sigmgr._PF:1 200x331+947+578
+wm geometry .sigmgr._PF:1 200x331+951+579
+wm geometry .sigmgr._PF:1 200x331+953+581
+wm geometry .sigmgr._PF:1 200x331+955+581
+wm geometry .sigmgr._PF:1 200x331+956+581
+wm geometry .sigmgr._PF:1 200x331+957+581
+wm geometry .sigmgr._PF:1 200x331+957+582
+wm geometry .sigmgr._PF:1 200x331+956+581
+Graph:Select Graph1
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+GrMeas:VerticalMarker Graph1 {Signal1 Signal0} 25658.0
+# M:0
+Graph:DSel
+GrMeas:Select Graph1 M:0 2
+GrMeas:MoveXLevel Graph1 M:0 2 3.2697782022792
+# M:0
+GrMeas:MoveXLevel Graph1 M:0 2 2.8151698253966
+# M:0
+GrMeas:MoveXLevel Graph1 M:0 2 8.651816802702
+# M:0
+Graph:SetCMap mono
+Graph:Select Graph0
+Graph:SetCMap mono
+Mdi:ArrangeIcons

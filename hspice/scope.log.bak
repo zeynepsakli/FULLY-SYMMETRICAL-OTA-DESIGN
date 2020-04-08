@@ -1,0 +1,30 @@
+# PF:1
+Mdi:ArrangeIcons
+pf:read PF:1 v(15)
+# WF:1:1
+Graph addsignal {WF:1:1 WF:1:1} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+GrMeas:VerticalMarker Graph0 {Signal1 Signal0} 25658.0
+# M:0
+Graph:DSel
+GrMeas:Select Graph0 M:0 2
+GrMeas:MoveXLevel Graph0 M:0 2 16.969496030089
+# M:0
+pf:read PF:1 v(13)
+# WF:1:2
+Graph addsignal {WF:1:2 WF:1:2} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal2 Signal3
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+GrMeas:VerticalMarker Graph0 {Signal3 Signal2 Signal1 Signal0} 10479.0
+# M:1
+Graph:DSel
+GrMeas:Select Graph0 M:1 6
+GrMeas:MoveXLevel Graph0 M:1 6 18.288403384348
+# M:1
